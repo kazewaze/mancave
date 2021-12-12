@@ -1,0 +1,21 @@
+.container {
+  max-width: min(980px, 100%);
+  flex: 1 0 auto;
+  padding: 0 1rem;
+  margin: 4.5rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+/* .breadCrumbs {
+  display: flex;
+  justify-content: flex-start;
+} */

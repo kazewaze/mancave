@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: 'Readex Pro', 'Inter', 'Fira Sans', Helvetica Neue, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.0625em;
+  color: #000;
+  background-color: #FFF;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #e70700;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 3px solid #000;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+em {
+  font-family: 'Sriracha', 'Fira Sans', Helvetica Neue, sans-serif;
+}
+
+section {
+  margin: 1rem 0 0 0;
+}

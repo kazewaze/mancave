@@ -1,0 +1,14 @@
+.nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+  padding: 14px;
+  color: #fff;
+  background-color: #000;
+}
+
+.nav a {
+  color: #fff;
+}

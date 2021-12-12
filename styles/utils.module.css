@@ -1,0 +1,85 @@
+.postHeading, .headingXl, .heading2Xl, .heading3Xl, .heading4Xl {
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.heading4Xl {
+  /* font-size: 22vw; */
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+.heading3Xl {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+.postHeading {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #7f8f9f;
+}
+
+.myHandle, .myHandleHeading {
+  font-family: 'Fira Sans', 'Readex Pro', Helvetica Neue, sans-serif;
+  font-weight: bolder;
+}
+
+.myHandleHeading {
+  border-bottom: 5px solid #000;
+}
+
+.thinText {
+  font-weight: 300;
+}
+
+.strk-thru {
+  text-decoration: line-through;
+}
