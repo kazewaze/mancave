@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
                 <h1 className={ utilStyles.introTitle }>
                   <span className={ utilStyles.thinText }>Hi, my name is </span><strong>Kaycee Ingram</strong><span className={ utilStyles.thinText }>, a.k.a </span><span className={ utilStyles.heroNameLogoTxt }><strong>kazewaze</strong></span>.
                 </h1>
-                <h3 className={utilStyles.introDescription}>I'm a <em>Front-End Developer</em> with a splash of OCD thrown in who Loves building things that function just as good as they look.</h3>
+                <h3 className={utilStyles.introDescription}>I&apos;m a <em>Front-End Developer</em> with a splash of OCD thrown in who Loves building things that function just as good as they look.</h3>
               </>
             ) : (
               <>

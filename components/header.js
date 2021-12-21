@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import styles from './styles/nav.module.css';
 
@@ -21,7 +22,7 @@ export default function Header() {
   return (
     <header>
       <nav className={styles.nav}>
-        <img className={styles.logo} src="/images/kazewaze.svg" alt="kazewaze logo"/>
+        <Image height={"45px"} width={"45px"} className={styles.logo} src="/images/kazewaze.svg" alt="kazewaze logo"/>
         <ul>
           { links }
         </ul>
