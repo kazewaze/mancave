@@ -1,3 +1,10 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  touch-action: manipulation;
+}
+
 html,
 body {
   font-family: 'Readex Pro', 'Inter', 'Fira Sans', Helvetica Neue, sans-serif;
@@ -8,28 +15,30 @@ body {
   background-color: #FFF;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-a {
-  color: #e70700;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-a:hover {
-  border-bottom: 3px solid #000;
-}
-
 img {
   max-width: 100%;
   display: block;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a, li {
+  text-decoration: none;
+}
+
 a, button {
   cursor: pointer;
+}
+
+a {
+  color: #e70700;
+  font-weight: 500;
+}
+
+a:hover {
+  border-bottom: 3px solid #000;
 }
 
 em {
@@ -38,4 +47,20 @@ em {
 
 section {
   margin: 1rem 0 0 0;
+}
+
+::selection {
+  color: #fff;
+  background: #000; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #000; /* Gecko Browsers */
+}
+
+@media screen and (min-width:1024px) {
+  a:hover {
+    border-bottom: 4px solid #000;
+  }
 }

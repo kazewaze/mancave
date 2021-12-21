@@ -1,8 +1,8 @@
 .container {
-  max-width: min(980px, 100%);
+  max-width: min(1024px, 100%);
   flex: 1 0 auto;
   padding: 0 1rem;
-  margin: 4.5rem auto 6rem;
+  margin: calc(3rem + 60px) auto 3rem;
 }
 
 .header {

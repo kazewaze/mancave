@@ -3,12 +3,31 @@
   left: 0;
   right: 0;
   position: fixed;
-  z-index: 1000;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 14px;
   color: #fff;
   background-color: #000;
+  z-index: 1000;
 }
 
 .nav a {
+  font-weight: bold;
   color: #fff;
+}
+
+.nav > ul {
+  display: flex;
+}
+
+.nav > ul > li {
+  margin-right: 14px;
+}
+
+.logo {
+  height: 45px;
+  width: 45px;
+  margin-left: 14px;
 }

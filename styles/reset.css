@@ -23,22 +23,6 @@ html, body {
   height: 100%;
 }
 
-/**
- * Prevent adjustments of font size after orientation changes in iOS.
- */
-html {
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-/*
-  Typographic tweaks!
-  4. Add accessible line-height
-  5. Improve text rendering
-*/
-body {
-  line-height: calc(1em + 0.625rem);
-  -webkit-font-smoothing: antialiased;
-}
-
 main {
   display: block;
 }
@@ -375,4 +359,11 @@ template {
 */
 #root, #__next {
   isolation: isolate;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-shadow: none !important;
 }

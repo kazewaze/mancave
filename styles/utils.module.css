@@ -1,13 +1,63 @@
-.postHeading, .headingXl, .heading2Xl, .heading3Xl, .heading4Xl {
+.postHeading, .headingXl, .heading2Xl, .heading3Xl, .introTitle {
   font-weight: 800;
   letter-spacing: -0.05rem;
+  line-height: 1.2;
   margin: 1rem 0;
 }
 
-.heading4Xl {
-  /* font-size: 22vw; */
-  font-size: 3.5rem;
-  line-height: 1;
+.introContainer {
+  /*  */
+}
+
+.introTitle {
+  font-size: 3.25rem;
+}
+
+.introDescription {
+  margin: 3rem 0 1.5rem 0;
+  font-size: 1.25rem;
+}
+
+.sectionHeading {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+@media screen and (min-width:780px) {
+  .introTitle {
+    font-size: 4.50rem;
+    line-height: 1.1;
+  }
+
+  .introDescription {
+    font-size: 1.5rem;
+  }
+}
+
+/* Vercel Intro Font-Settings */
+@media screen and (min-width:1024px) {
+  .introTitle {
+    font-size: 5.75rem;
+    line-height: 1;
+  }
+
+  .introDescription {
+    font-size: 1.75rem;
+  }
+
+  .sectionHeading {
+    font-size: 1.75rem;
+  }
+
+  .headingMd {
+    font-size: 1.50rem;
+  }
 }
 
 .heading3Xl {
@@ -28,17 +78,6 @@
 .postHeading {
   font-size: 2.5rem;
   line-height: 1.2;
-}
-
-.headingLg {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin: 1rem 0;
-}
-
-.headingMd {
-  font-size: 1.2rem;
-  line-height: 1.5;
 }
 
 .borderCircle {
@@ -67,13 +106,13 @@
   color: #7f8f9f;
 }
 
-.myHandle, .myHandleHeading {
+.nameLogoTxt, .heroNameLogoTxt, .heroNameLogoTxt strong {
   font-family: 'Fira Sans', 'Readex Pro', Helvetica Neue, sans-serif;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
-.myHandleHeading {
-  border-bottom: 5px solid #000;
+.heroNameLogoTxt {
+  border-bottom: 7px solid #000;
 }
 
 .thinText {
