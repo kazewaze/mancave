@@ -10,7 +10,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  /* padding: 14px; */
   color: #fff;
   background-color: #000;
   z-index: 1000;
@@ -154,6 +153,11 @@
 .nav > input[type="checkbox"]:checked ~ .mobileIconToggle > .diagonal.two {
   transform: rotate(-135deg);
   margin-top: -9px;
+}
+
+.nav > input[type="checkbox"]:checked ~ #mobileMenu {
+  scrollbar-width: none;
+  overflow-y: auto;
 }
 
 .mobileMenuInner li {

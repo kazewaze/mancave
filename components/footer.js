@@ -13,7 +13,7 @@ export default function Footer() {
           <span className={ utilStyles.nameLogoTxt }><strong>kazewaze</strong></span>
         </a>
       </h5>
-      <p>Copyright © 2021 Kaycee Ingram</p>
+      <p>Copyright © 2022 Kaycee Ingram</p>
     </footer>
   )
 }
