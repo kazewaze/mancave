@@ -8,15 +8,15 @@
   background-color: #f7f8f9;
 }
 
-.footer a, .footer p {
-  /* margin: 14px; */
-}
-
 .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+}
+
+.footer a:hover {
+  border: none;
 }
 
 .footer p {

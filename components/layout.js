@@ -35,7 +35,6 @@ export default function Layout({ children, home }) {
       </Head>
       <Navbar />
       <div className={ styles.container }>
-
         <div className={ utilStyles.introContainer }>
           {
             home ? (

@@ -109,6 +109,12 @@
 .nameLogoTxt, .heroNameLogoTxt, .heroNameLogoTxt strong {
   font-family: 'Fira Sans', 'Readex Pro', Helvetica Neue, sans-serif;
   font-weight: 800;
+  color: #000;
+}
+
+.nameLogoTxt {
+  padding: 14px;
+  font-size: 1.75rem;
 }
 
 .heroNameLogoTxt {

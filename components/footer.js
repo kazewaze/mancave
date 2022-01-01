@@ -1,19 +1,18 @@
-import Image from 'next/image'
-
+import utilStyles from '../styles/utils.module.css'
 import styles from './styles/footer.module.css'
 
-export default function Footer({ children }) {
+export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <a
+      <h5>
+        <a
         href="https://kayceeingram.com"
         target="_blank"
         rel="noopener noreferrer"
-      >
-        <span className={styles.logo}>
-          <Image src="/images/kazewaze-name.svg" alt="kazewaze name logo" width={150} height={75} />
-        </span>
-      </a>
+        >
+          <span className={ utilStyles.nameLogoTxt }><strong>kazewaze</strong></span>
+        </a>
+      </h5>
       <p>Copyright © 2021 Kaycee Ingram</p>
     </footer>
   )
