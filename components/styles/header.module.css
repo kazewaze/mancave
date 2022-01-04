@@ -64,7 +64,7 @@
   width: 100%;
   display: none;
   margin: 60px 0 0 0;
-  overflow-y: unset;
+  overflow-y: hidden;
   opacity: 0;
   z-index: 1000;
   transform: translateX(-100%);
@@ -155,10 +155,10 @@
   margin-top: -9px;
 }
 
-@media (max-height: 625px) {
+@media (max-height: 650px) {
   .nav > input[type="checkbox"]:checked ~ #mobileMenu {
     scrollbar-width: none;
-    overflow-y: auto;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
 }

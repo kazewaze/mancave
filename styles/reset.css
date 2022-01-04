@@ -354,16 +354,10 @@ template {
   display: none;
 }
 
-/*
-  9. Create a root stacking context
-*/
-#root, #__next {
-  isolation: isolate;
-}
-
 #__next {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   text-shadow: none !important;
+  isolation: isolate;
 }

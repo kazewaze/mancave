@@ -9,6 +9,7 @@ html {
 
 html,
 body {
+  height: 100%;
   font-family: 'Readex Pro', 'Inter', 'Fira Sans', Helvetica Neue, sans-serif;
   font-size: 18px;
   line-height: 1.5;
@@ -35,13 +36,30 @@ a, button {
 }
 
 a {
-  color: #e70700;
+  display: inline;
   font-weight: 500;
+  color: #e70700;
+  background: transparent;
 }
 
 a:hover {
-  border-bottom: 3px solid #000;
+  border-bottom: 3.5px solid #000;
 }
+
+/* a {
+  display: inline;
+  border-bottom: 4px solid #000;
+  font-weight: 600;
+  color: #000;
+  background: transparent;
+}
+
+a:hover {
+  border-bottom: none;
+  color: #fff;
+  background-color: #000;
+  outline: 4px solid #000;
+} */
 
 em {
   font-family: 'Sriracha', 'Fira Sans', Helvetica Neue, sans-serif;
@@ -53,16 +71,10 @@ section {
 
 ::selection {
   color: #fff;
-  background: #000; /* WebKit/Blink Browsers */
+  background: #000;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #000; /* Gecko Browsers */
-}
-
-@media screen and (min-width:1024px) {
-  a:hover {
-    border-bottom: 4px solid #000;
-  }
+  background: #000;
 }
