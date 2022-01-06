@@ -26,11 +26,12 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content="/kazewaze.svg"
         />
         <meta name="og:title" content={siteTitle} />
+        <meta property="og:image" content="/kazewaze.svg" />
+        <meta property="og:url" content="https://kaycee.vercel.app" />
+        <meta property="og:site_name" content="kazewaze" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Navbar />

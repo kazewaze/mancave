@@ -32,11 +32,15 @@
   margin-right: 26px;
 }
 
-.imgWrapper {
+.imgWrapper > a {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 26px;
+}
+
+.imgWrapper > a:hover {
+  border: none;
 }
 
 .logo {
