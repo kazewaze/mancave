@@ -20,18 +20,6 @@
   color: #fff;
 }
 
-.links {
-  display: flex;
-}
-
-.nav > input[type="checkbox"] {
-  display: none;
-}
-
-.nav > ul > li {
-  margin-right: 26px;
-}
-
 .imgWrapper > a {
   display: flex;
   justify-content: center;
@@ -41,6 +29,63 @@
 
 .imgWrapper > a:hover {
   border: none;
+}
+
+.links {
+  display: flex;
+}
+
+.links > li {
+  margin-right: 26px;
+}
+
+.links > li > a:hover {
+  border: none;
+}
+
+.hLine {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .nav {
+    height: 105px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav a {
+    padding: 3px;
+  }
+
+  .imgWrapper > a {
+    margin: 3px 0 6px 0;
+  }
+
+  .links {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links > li {
+    margin: 0 36px 0 0;
+  }
+
+  .links > li > a:hover {
+    border-radius: 3px;
+    border-bottom: 10.5px solid #000;
+  }
+
+  .hLine {
+    display: block;
+    width: 100vw;
+    margin-bottom: 3px;
+    color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+.nav > input[type="checkbox"] {
+  display: none;
 }
 
 .logo {

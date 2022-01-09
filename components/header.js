@@ -30,6 +30,7 @@ function MobileMenu() {
         <li>
           <Link href="#">
             <a>Skills</a>
+
           </Link>
         </li>
         <li>
@@ -75,6 +76,7 @@ export default function Header() {
               </a>
             </Link>
           </div>
+          <hr className={styles.hLine}/>
           <ul className={styles.links}>
             { links }
           </ul>

@@ -5,6 +5,12 @@
   margin: calc(3rem + 60px) auto 3rem;
 }
 
+@media(min-width: 1025px) {
+  .container {
+    margin: calc(3rem + 105px) auto 3rem;
+  }
+}
+
 .header {
   display: flex;
   flex-direction: column;
