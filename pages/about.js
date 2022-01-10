@@ -1,9 +1,15 @@
-// import Image from 'next/image'
+import Head from 'next/head'
+import Layout from '../components/layout'
 
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <Layout>
+      <Head>
+        <title>About</title>
+      </Head>
+      <div>
+        <h1>About</h1>
+      </div>
+    </Layout>
   )
 }

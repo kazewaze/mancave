@@ -21,30 +21,34 @@ function MobileMenu() {
   return (
     <div id={styles.mobileMenu}>
       <ul className={styles.mobileMenuInner}>
-        <li className={styles.menuLogo}><a href="https://github.com/kazewaze" target="_blank" rel="noreferrer"><strong>kazewaze</strong></a></li>
+        <li className={styles.menuLogo}>
+          <Link href="/">
+            <a>
+              <strong>kazewaze</strong>
+            </a>
+          </Link></li>
         <li>
-          <Link href="#">
+          <Link href="/projects">
             <a>Projects</a>
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="/skills">
             <a>Skills</a>
-
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="/posts">
             <a>Posts</a>
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="/about">
             <a>About</a>
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="/contact">
             <a>Contact</a>
           </Link>
         </li>
