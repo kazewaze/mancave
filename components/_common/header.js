@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import styles from './styles/header.module.css';
-import classes from '../lib/classes';
+import styles from '../styles/header.module.css';
+import classes from '../../lib/classes';
+import generateLinks from '../../lib/links';
+
+const links = generateLinks(['Projects', 'Skills', 'Posts', 'About', 'Contact']);
 
 function MenuButton() {
   return (
@@ -26,50 +29,15 @@ function MobileMenu() {
             <a>
               <strong>kazewaze</strong>
             </a>
-          </Link></li>
-        <li>
-          <Link href="/projects">
-            <a>Projects</a>
           </Link>
         </li>
-        <li>
-          <Link href="/skills">
-            <a>Skills</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/posts">
-            <a>Posts</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact">
-            <a>Contact</a>
-          </Link>
-        </li>
+        { links }
       </ul>
     </div>
   )
 }
 
 export default function Header() {
-  const links = ['Projects', 'Skills', 'Posts', 'About', 'Contact'].map(item => {
-    return (
-      <li key={item + "Key"}>
-        <Link href={"/" + item.toLowerCase()}>
-          <a>
-            { item }
-          </a>
-        </Link>
-      </li>
-    );
-  });
-
   return (
       <header className={styles.header}>
         <nav className={styles.nav}>

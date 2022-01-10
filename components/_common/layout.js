@@ -1,13 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
-// import Image from 'next/image'
 
 import Navbar from './header'
 import Footer from './footer'
-// import Hero from './hero'
 
-import styles from './styles/layout.module.css'
-import utilStyles from '../styles/utils.module.css'
+import styles from '../styles/layout.module.css'
+import utilStyles from '../../styles/utils.module.css'
 
 export const siteTitle = 'Kaycee Ingram'
 
