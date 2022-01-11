@@ -38,12 +38,15 @@ a, button {
 a {
   display: inline;
   font-weight: 500;
-  color: #e70700;
+  color: #000;
+  border-bottom: 3.5px solid #000;
   background: transparent;
 }
 
 a:hover {
-  border-bottom: 3.5px solid #000;
+  border-radius: 1.75px;
+  color: #FFF;
+  background-color: #000;
 }
 
 /* a {

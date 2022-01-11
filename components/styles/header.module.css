@@ -16,6 +16,7 @@
 }
 
 .nav a {
+  border: none;
   font-weight: bold;
   color: #fff;
 }
@@ -40,7 +41,7 @@
 }
 
 .links > li > a:hover {
-  border: none;
+  background: transparent;
 }
 
 .hLine {
@@ -221,16 +222,16 @@
   color: #fff;
 }
 
+.mobileMenuInner li a, .menuLogo > a {
+  border: none;
+}
+
 .mobileMenuInner li a {
   text-transform: none;
   text-decoration: none;
   font-size: 1.75rem;
   font-weight: bolder;
   color: #fff;
-}
-
-.mobileMenuInner li a:hover {
-  border: none;
 }
 
 .menuLogo {
@@ -243,6 +244,10 @@
 
 .menuLogo > a {
   color: #000!important;
+}
+
+.mobileMenuInner li a:hover, .menuLogo > a:hover {
+  background: transparent;
 }
 
 .nav > input[type="checkbox"]:checked ~ #mobileMenu {

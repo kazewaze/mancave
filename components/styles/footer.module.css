@@ -14,10 +14,11 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  border: none;
 }
 
 .footer a:hover {
-  border: none;
+  background: transparent;
 }
 
 .footer p {
