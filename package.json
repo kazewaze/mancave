@@ -16,16 +16,16 @@
   },
   "resolutions": {
     "browserslist": "4.19.1",
-    "node-fetch": "^3.2.0",
-    "postcss": "^8.4.5",
-    "trim": "^1.0.1",
-    "trim-off-newlines": "^1.0.3"
+    "node-fetch": "3.2.0",
+    "postcss": "8.4.5",
+    "trim": "1.0.1",
+    "trim-off-newlines": "1.0.3"
   },
   "devDependencies": {
     "browserslist": "4.19.1",
-    "node-fetch": "^3.2.0",
-    "postcss": "^8.4.5",
-    "trim": "^1.0.1",
-    "trim-off-newlines": "^1.0.3"
+    "node-fetch": "3.2.0",
+    "postcss": "8.4.5",
+    "trim": "1.0.1",
+    "trim-off-newlines": "1.0.3"
   }
 }
