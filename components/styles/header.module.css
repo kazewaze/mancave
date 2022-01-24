@@ -72,10 +72,10 @@
     margin: 0 36px 0 0;
   }
 
-  .links > li > a:hover {
+  /* .links > li > a:hover {
     border-radius: 3px;
     border-bottom: 7.5px solid #000;
-  }
+  } */
 
   .hLine {
     display: block;
