@@ -27,5 +27,10 @@
     "postcss": "8.4.5",
     "trim": "1.0.1",
     "trim-off-newlines": "1.0.3"
+  },
+  "type": "commonjs",
+  "engine": {
+    "node": "16.13.0",
+    "npm": "8.1.0"
   }
 }
