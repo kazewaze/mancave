@@ -17,14 +17,14 @@
   "resolutions": {
     "browserslist": "4.19.1",
     "node-fetch": "2.6.7",
-    "postcss": "8.4.5",
+    "postcss": "^7.0.36",
     "trim": "1.0.1",
     "trim-off-newlines": "1.0.3"
   },
   "devDependencies": {
     "browserslist": "4.19.1",
     "node-fetch": "2.6.7",
-    "postcss": "8.4.5",
+    "postcss": "^7.0.36",
     "trim": "1.0.1",
     "trim-off-newlines": "1.0.3"
   },
