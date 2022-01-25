@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "preinstall": "npx npm-force-resolutions"
+    "preinstall": "npm install --package-lock-only --ignore-scripts && npx npm-force-resolutions"
   },
   "dependencies": {
     "date-fns": "^2.11.1",
