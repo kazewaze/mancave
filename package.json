@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "preinstall": "npm install --package-lock-only --ignore-scripts && npx npm-force-resolutions"
+    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "date-fns": "^2.11.1",
@@ -16,19 +16,18 @@
   },
   "resolutions": {
     "browserslist": "4.19.1",
-    "node-fetch": "3.2.0",
+    "node-fetch": "2.6.7",
     "postcss": "8.4.5",
     "trim": "1.0.1",
     "trim-off-newlines": "1.0.3"
   },
   "devDependencies": {
     "browserslist": "4.19.1",
-    "node-fetch": "3.2.0",
+    "node-fetch": "2.6.7",
     "postcss": "8.4.5",
     "trim": "1.0.1",
     "trim-off-newlines": "1.0.3"
   },
-  "type": "commonjs",
   "engine": {
     "node": "16.13.0",
     "npm": "8.1.0"

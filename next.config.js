@@ -31,7 +31,6 @@ module.exports = withMdxEnhanced({
   layoutPath: 'components/posts/layouts',
   pageExtensions: ['js', 'jsx', 'mdx']
 })({
-  reactStrictMode: true,
   async headers() {
     return [
       {
