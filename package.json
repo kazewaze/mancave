@@ -17,15 +17,19 @@
   "resolutions": {
     "browserslist": "4.19.1",
     "node-fetch": "2.6.7",
-    "postcss": "7.0.37",
+    "postcss": "8.3.9",
     "trim": "1.0.1",
     "trim-off-newlines": "1.0.3"
   },
   "devDependencies": {
     "browserslist": "4.19.1",
     "node-fetch": "2.6.7",
-    "postcss": "7.0.37",
+    "postcss": "8.3.9",
     "trim": "1.0.1",
     "trim-off-newlines": "1.0.3"
+  },
+  "engine": {
+    "node": "^16",
+    "npm": "^8"
   }
 }
