@@ -41,7 +41,7 @@ export default function Layout({ children, home }) {
                 <h1 className={ utilStyles.introTitle }>
                   <span className={ utilStyles.thinText }>Hi, my name is </span><strong>Kaycee Ingram</strong><span className={ utilStyles.thinText }>, a.k.a </span><span className={ utilStyles.heroNameLogoTxt }><strong>kazewaze</strong></span>.
                 </h1>
-                <h3 className={utilStyles.introDescription}>I&apos;m a <em>Front-End Developer</em> with a splash of OCD thrown in who Loves building things that function just as good as they look.</h3>
+                <h3 className={utilStyles.introDescription}>I&apos;m a <em>Front-End Developer</em> who is passionate about developing experiences that users will remember even long after the tech used becomes obsolete. I also have the knowledge and experience necessary to work on the back-end from the server to the database. I am quick to admit when i don't know something but even quicker on picking it up and learning it. </h3>
               </>
             ) : (
               <>

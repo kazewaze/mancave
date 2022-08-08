@@ -17,10 +17,10 @@ export default function Home({ posts }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.sectionHeading}>Posts</h2>
         <ul className={utilStyles.list}>
-          {posts.map(({ title, date, path, id }) => (
+          {posts.map(({ title, date, path, id}) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={path}>
-                <a>{title}</a>
+                {title}
               </Link>
               <br />
               <Date small={true} dateString={date} />
