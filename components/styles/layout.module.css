@@ -18,7 +18,16 @@
 }
 
 .backToHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 3rem 0 0;
+}
+
+.backToHome > a {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 3.5px 7px 3.5px 7px;
 }
 
 /* .breadCrumbs {

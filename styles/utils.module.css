@@ -136,3 +136,8 @@
 .strk-thru {
   text-decoration: line-through;
 }
+
+.gist {
+  font-size: 1rem;
+  margin-top: 16px;
+}

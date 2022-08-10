@@ -5,7 +5,7 @@ export default function Date({ small=false, dateString }) {
   const date = parseISO(dateString)
   return (
     small ?
-      <small>
+      <small style={{ marginTop: '8px' }}>
         <time className={styles.lightText} dateTime={dateString}>{format(date, 'LLLL d, yyyy')}</time>
       </small>
       :
