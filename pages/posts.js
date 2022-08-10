@@ -16,7 +16,7 @@ export default function Posts({ posts }) {
       </Head>
       <div>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-          {/* <h2 className={utilStyles.sectionHeading}>Posts</h2> */}
+          <h2 className={utilStyles.sectionHeading}>All My Scribbles</h2>
           <ul className={utilStyles.list}>
             {posts.map(({ title, date, path, id }) => (
               <li className={utilStyles.listItem} key={id}>
