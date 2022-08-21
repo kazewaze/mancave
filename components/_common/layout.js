@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import Navbar from './header'
 import Footer from './footer'
@@ -55,6 +56,7 @@ export default function Layout({ children, home }) {
             <div className={ styles.backToHome }>
               <Link href="/">
                 <a>← Home where you make it</a>
+                <Image height={"45px"} width={"45px"} className={styles.backToHomeImg} src="/images/farmer.png" />
               </Link>
             </div>
           )
