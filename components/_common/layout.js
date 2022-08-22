@@ -54,9 +54,9 @@ export default function Layout({ children, home }) {
         {
           !home && (
             <div className={ styles.backToHome }>
+              <Image height={"70px"} width={"70px"} className={styles.backToHomeImg} src="/images/waterboy.png" />
               <Link href="/">
-                <a>← Home where you make it</a>
-                <Image height={"45px"} width={"45px"} className={styles.backToHomeImg} src="/images/farmer.png" />
+                ← Home where you make it
               </Link>
             </div>
           )
