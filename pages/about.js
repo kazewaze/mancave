@@ -10,7 +10,7 @@ export default function About() {
         <title>About</title>
       </Head>
       <div className={utilStyles.pageContainer}>
-        <h1>About</h1>
+        <h1 className={utilStyles.introTitle}>About</h1>
       </div>
     </Layout>
   )

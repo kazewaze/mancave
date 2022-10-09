@@ -10,7 +10,7 @@ export default function Skills() {
         <title>Skills</title>
       </Head>
       <div className={utilStyles.pageContainer}>
-        <h1>Skills</h1>
+        <h1 className={utilStyles.introTitle}>Skills</h1>
       </div>
     </Layout>
   )

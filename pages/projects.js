@@ -10,7 +10,7 @@ export default function Projects() {
         <title>Projects</title>
       </Head>
       <div className={utilStyles.pageContainer}>
-        <h1>Projects</h1>
+        <h1 className={utilStyles.introTitle}>Projects</h1>
       </div>
     </Layout>
   )
