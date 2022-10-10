@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/_common/layout'
 
-import pageStyles from './styles/contact.module.css'
+// import pageStyles from './styles/contact.module.css'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Contact() {
