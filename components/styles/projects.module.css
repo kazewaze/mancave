@@ -1,0 +1,12 @@
+.Card {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.Card > a {
+  margin: 3px 0;
+}
