@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import styles from '../styles/projects.module.css'
 
-export default function ProjectCard(title='Project Title', imgLocation='', imgWidth='', imgHeight='', imgAlt='Project Logo', projectLocation='', sourceLocation='') {
+export default function ProjectCard({title, imgLocation, imgWidth, imgHeight, imgAlt, projectLocation, sourceLocation}) {
   return (
     <div className={styles.Card}>
       <Image src={imgLocation} width={imgWidth} height={imgHeight} alt={imgAlt} />
