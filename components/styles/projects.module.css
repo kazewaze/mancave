@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 15px;
   padding: 35px 55px;
   border-radius: 3.5px;
   box-shadow: none;
@@ -11,7 +12,11 @@
 }
 
 .Card > a {
-  margin: 3px 0;
+  margin: 5px 0;
+}
+
+.demoLink {
+  margin-top: 15px;
 }
 
 .projectTitle {
