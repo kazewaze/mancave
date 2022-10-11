@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 import styles from '../styles/projects.module.css'
 
-export default function ProjectCard({title='', imgLocation, imgWidth="100px", imgHeight="100px", imgAlt="Project Logo", projectLocation, sourceLocation}) {
+export default function ProjectCard({title='', imgLocation='', imgWidth="100px", imgHeight="100px", imgAlt="Project Logo", projectLocation, sourceLocation}) {
   return (
     <div className={styles.Card}>
-      <Image src={imgLocation} width={imgWidth} height={imgHeight} alt={imgAlt} />
+      { imgLocation === '' ? '' : <Image src={imgLocation} width={imgWidth} height={imgHeight} alt={imgAlt} /> }
 
       { title === 'PickMe!' ? (
           <h1 className={styles.projectTitle}><span style={{color: "#00c14e"}}>{ title }</span></h1>
