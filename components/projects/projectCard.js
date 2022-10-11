@@ -8,7 +8,7 @@ export default function ProjectCard({title, imgLocation, imgWidth="100px", imgHe
     <div className={styles.Card}>
       <Image src={imgLocation} width={imgWidth} height={imgHeight} alt={imgAlt} />
 
-      <h1 className={styles.projectTitle}>{ noTitle ? '' : title }</h1>
+      <h1 className={styles.projectTitle}>{ !noTitle ? title : '' }</h1>
 
       <Link href={projectLocation}>
         Demo
