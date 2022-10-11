@@ -14,9 +14,7 @@ export default function Projects() {
       <div className={utilStyles.pageContainer}>
         <h1 className={utilStyles.introTitle}>Projects</h1>
 
-        <ProjectCard img={{location: 'https://raw.githubusercontent.com/kazewaze/Ghost/e71a5b8d2b7a98049e95eba2210fa6e033997fd0/images/Ghost.svg', width: '100px', height: '100px', alt: 'Project Logo'}} projectLocation={'https://ghost-css.netlify.app'} sourceLocation={'https://github.com/kazewaze/Ghost'}>
-          Ghost.css Stylesheet
-        </ProjectCard>
+        <ProjectCard title={'Ghost.css Stylesheet'} imgLocation={'https://raw.githubusercontent.com/kazewaze/Ghost/e71a5b8d2b7a98049e95eba2210fa6e033997fd0/images/Ghost.svg'} imgWidth={'100px'} imgHeight={'100px'} imgAlt={'Project Logo'} projectLocation={'https://ghost-css.netlify.app'} sourceLocation={'https://github.com/kazewaze/Ghost'} />
       </div>
     </Layout>
   )

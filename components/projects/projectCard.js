@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 import styles from '../styles/projects.module.css'
 
-export default function ProjectCard(children, img, projectLocation, sourceLocation) {
+export default function ProjectCard(title='Project Title', imgLocation='', imgWidth='', imgHeight='', imgAlt='Project Logo', projectLocation='', sourceLocation='') {
   return (
     <div className={styles.Card}>
-      <Image src={img.location} width={img.width} height={img.height} alt={img.alt} />
+      <Image src={imgLocation} width={imgWidth} height={imgHeight} alt={imgAlt} />
 
-      <h1 className={styles.projectTitle}>{ children }</h1>
+      <h1 className={styles.projectTitle}>{ title }</h1>
 
       <Link href={projectLocation}>
         Demo
