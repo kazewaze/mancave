@@ -10,3 +10,7 @@
 .Card > a {
   margin: 3px 0;
 }
+
+.projectTitle {
+  font-weight: 500px;
+}
