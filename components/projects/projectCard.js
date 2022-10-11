@@ -8,7 +8,12 @@ export default function ProjectCard({title='', imgLocation, imgWidth="100px", im
     <div className={styles.Card}>
       <Image src={imgLocation} width={imgWidth} height={imgHeight} alt={imgAlt} />
 
-      <h1 className={styles.projectTitle}>{ title === '' ? '' : title }</h1>
+      { title === 'PickMe!' ? (
+          <h1 className={styles.projectTitle}><span style={{color: "#00c14e"}}>{ title }</span></h1>
+        ) : (
+          <h1 className={styles.projectTitle}>{ title }</h1>
+        )
+      }
 
       <Link href={projectLocation}>
         Demo
