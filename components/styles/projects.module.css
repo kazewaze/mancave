@@ -20,9 +20,18 @@
   margin-top: 15px;
 }
 
-.projectTitle {
+.projectTitle,
+.projectDescription {
   font-family: 'Fira Sans', "Inter", "Readex Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.projectTitle {
   font-weight: 700;
+}
+
+.projectDescription {
+  font-weight: 500;
+  color: #7f8f9f;
 }
 
 .cardLinks {
