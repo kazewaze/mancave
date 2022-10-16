@@ -7,7 +7,7 @@ export default function ProjectCard({title='', titleColor='#000000', projectLoca
   return (
     <div className={styles.Card}>
       <h1 className={classes(styles, ["projectTitle", {color: titleColor}])}>{ title }</h1>
-      <div>
+      <div className={styles.cardLinks}>
         <Link className={styles.demoLink} href={projectLocation}>
           Demo
         </Link>
