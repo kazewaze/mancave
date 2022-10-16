@@ -1,12 +1,11 @@
 import Link from 'next/link'
 
 import styles from '../styles/projects.module.css'
-import classes from '../../lib/classes'
 
-export default function ProjectCard({title='', titleColor='#000000', projectLocation='', sourceLocation=''}) {
+export default function ProjectCard({title='', description='', projectLocation='', sourceLocation=''}) {
   return (
     <div className={styles.Card}>
-      <h1 className={classes(styles, ["projectTitle", {color: titleColor}])}>{ title }</h1>
+      <h1 className={styles.projectTitle}>{ title }</h1>
       <div className={styles.cardLinks}>
         <Link className={styles.demoLink} href={projectLocation}>
           Demo
