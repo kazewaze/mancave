@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import Layout from '../components/_common/layout'
 
+import * as skills from '../public/images/skills'
+
 import utilStyles from '../styles/utils.module.css'
 
 export default function Skills() {
+  console.log(skills);
   return (
     <Layout>
       <Head>
