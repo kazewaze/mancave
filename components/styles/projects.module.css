@@ -6,8 +6,9 @@
   align-items: center;
   margin: 15px;
   padding: 35px 55px;
+  border: 1.75px solid #dedfe0;
   border-radius: 3.5px;
-  box-shadow: none;
+  box-shadow: 0px 2px 4px #dedfe0;;
   background-color: #f7f8f9;
 }
 
