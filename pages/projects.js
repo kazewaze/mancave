@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/_common/layout'
 
-import ProjectCard from '../components/projects/projectCard'
-
 import { projects, projectsData} from '../lib/projects'
 
 import utilStyles from '../styles/utils.module.css'
