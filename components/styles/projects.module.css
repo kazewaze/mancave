@@ -2,7 +2,7 @@
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 15px;
   padding: 35px 55px;
@@ -20,5 +20,6 @@
 }
 
 .projectTitle {
+  font-family: 'Fira Sans', "Inter", "Readex Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
