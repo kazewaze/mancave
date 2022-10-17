@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import Layout from '../components/_common/layout'
 
-import * as skills from '../public/images/skills'
+import skillImgs from '../lib/images'
 
 import utilStyles from '../styles/utils.module.css'
 
 export default function Skills() {
-  console.log(skills);
   return (
     <Layout>
       <Head>
@@ -14,6 +13,9 @@ export default function Skills() {
       </Head>
       <div className={utilStyles.pageContainer}>
         <h1 className={utilStyles.introTitle}>Skills</h1>
+        <div className={utilStyles.skillsContainer}>
+          { skillImgs() }
+        </div>
       </div>
     </Layout>
   )
