@@ -1,11 +1,13 @@
+import fs from 'fs'
+
 import Head from 'next/head'
+import Image from 'next/image';
 import Layout from '../components/_common/layout'
 
-import skillImgs from '../lib/images'
-
+import styles from '../components/styles/skills.module.css'
 import utilStyles from '../styles/utils.module.css'
 
-export default function Skills() {
+export default function Skills(props) {
   return (
     <Layout>
       <Head>
@@ -14,9 +16,18 @@ export default function Skills() {
       <div className={utilStyles.pageContainer}>
         <h1 className={utilStyles.introTitle}>Skills</h1>
         <div className={utilStyles.skillsContainer}>
-          { skillImgs() }
+          { props.skills }
         </div>
       </div>
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const skills =  fs.readdirSync('public/images/skills');
+  return skills.map(skill => {
+    <div className={styles.Skill}>
+      <Image height={'100px'} width={'100px'} src={'public/images/skills/' + skill} />
+    </div>
+  })
 }
