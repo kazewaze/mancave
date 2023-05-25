@@ -152,18 +152,17 @@
 }
 
 .article > main > p,
+.article > main > blockquote,
 .article > main > ul {
   margin: 15px;
   font-size: 20px;
 }
 
-blockquote {
-  margin: 30px;
+.article > main > blockquote {
   padding: 15px;
   border-radius: 1.5px;
   line-height: 1.5;
   letter-spacing: .0625em;
-  font-size: 20px;
   font-weight: bolder;
   font-style: italic;
   color: #fff;
