@@ -6,7 +6,6 @@ export default function MobileMenu() {
       <ul className={styles.mobileMenuInner}>
         <li className={styles.menuLogo}><a href="https://github.com/kazewaze" target="_blank" rel="noreferrer"><strong>kazewaze</strong></a></li>
         <li><a href="#">Projects</a></li>
-        <li><a href="#">Skills</a></li>
         <li><a href="#">Posts</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
