@@ -5,7 +5,7 @@ import styles from '../styles/header.module.css';
 import classes from '../../lib/classes';
 import generateLinks from '../../lib/links';
 
-const links = generateLinks(['Projects', 'Posts', 'About', 'Contact']);
+const links = generateLinks(['Projects', 'Skills', 'Posts', 'About', 'Contact']);
 
 function MenuButton() {
   return (
