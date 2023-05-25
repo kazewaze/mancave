@@ -1,0 +1,4 @@
+article > main > p, article > main > ul {
+  margin: 15px;
+  font-size: 20px;
+}
