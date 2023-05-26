@@ -6,7 +6,7 @@ export default function Date({ small=false, dateString }) {
   return (
     small ?
       <small style={{ marginTop: '8px' }}>
-        <time className={styles.lightText} dateTime={dateString}>{format(date, 'LLLL d, yyyy')}</time>
+        <time className={styles.lightText} dateTime={dateString}>{'['}{format(date, 'LLLL d, yyyy')}{']'}</time>
       </small>
       :
       <time className={styles.lightText} dateTime={dateString}>{format(date, 'LLLL d, yyyy')}</time>

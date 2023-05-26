@@ -12,7 +12,7 @@ export default function Footer() {
           </a>
         </Link>
       </h5>
-      <p>Copyright © 2022 Kaycee Ingram</p>
+      <p>Copyright © 2023 Kaycee Ingram</p>
     </footer>
   )
 }
