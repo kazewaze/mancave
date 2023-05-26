@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Layout from '../../_common/layout'
 import Date from '../date'
 
-import styles from '../../styles/post.module.css'
 import utilStyles from '../../../styles/utils.module.css'
 
 export default function Post({ children, frontMatter }) {

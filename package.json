@@ -6,9 +6,6 @@
     "start": "next start",
     "preinstall": "npm install --package-lock-only --ignore-scripts && npx npm-force-resolutions"
   },
-  "engines" : { 
-    "node" : ">16.2.0"
-  },
   "dependencies": {
     "date-fns": "^2.11.1",
     "gray-matter": "^4.0.3",
