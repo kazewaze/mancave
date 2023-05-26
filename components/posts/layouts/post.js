@@ -2,13 +2,11 @@ import Head from 'next/head'
 
 import Layout from '../../_common/layout'
 import Date from '../date'
-import codeHighlight from '../../../lib/codeHighlight'
 
 import utilStyles from '../../../styles/utils.module.css'
 
 export default function Post({ children, frontMatter }) {
   const { title, date } = frontMatter;
-  codeHighlight();
   return (
     <Layout>
       <Head>
