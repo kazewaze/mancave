@@ -7,6 +7,31 @@
   layout: 'post'
 ---
 
-This post will cover **what a Basic Neural Network looks like in Python and how it works internally**. It will give us a great jumping off point for future posts and more complex topics to come. Have a Blessed Day!
+This post will cover **what a Basic Neural Network looks like in Python and how it works internally**. It will give us a great jumping off point for future posts that will be more complex. Below is a preview of the code for the post to come. Have a Blessed Day!
+
+```py
+'''
+Simplest Neural Network
+  - Single Weight
+  - Single Input Datapoint
+'''
+
+# Weight (single) ~ [knowledge]:
+weight = 0.1
+
+# Data:
+data = [8.5, 9.5, 10, 9]
+
+# Input (single) ~ [information]:
+input = data[0]
+
+# Neural Network:
+def neural_network(input, weight):
+    pred = input * weight
+    return pred
+
+# Prediction:
+print(neural_network(input, weight))
+```
 
 Kaycee Ingram = **kazewaze**
