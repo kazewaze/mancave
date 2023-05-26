@@ -21,8 +21,14 @@
 }
 
 .postHeading {
-  font-size: 2.25rem;
   text-align: center;
+  font-size: 2.25rem;
+}
+
+.pageContent {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
 }
 
 .headingMd {
@@ -40,6 +46,10 @@
     font-size: 3.50rem;
   }
 
+  .pageContent {
+    font-size: 2.50rem;
+  }
+
   .introDescription {
     font-size: 1.5rem;
   }
@@ -54,6 +64,10 @@
 
   .postHeading {
     font-size: 4.75rem;
+  }
+
+  .pageContent {
+    font-size: 3rem;
   }
 
   .introDescription {

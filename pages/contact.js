@@ -12,16 +12,11 @@ export default function Contact() {
       </Head>
       <div className={utilStyles.pageContainer}>
         <h1 className={utilStyles.introTitle}>Hit me up</h1>
-        <p className={utilStyles.postHeading}>My Twitter handle is <em>thekazewaze</em>. Don&apos;t be shy!</p>
-        {/* <form className={pageStyles.contactForm} action="/api/form" method="post">
-          <label>Name</label>
-          <input type="text" id="name" name="name" required/>
-
-          <label>Email</label>
-          <input type="email" id="email" name="email" required/>
-
-          <button type="submit">Submit</button>
-        </form> */}
+        <p className={utilStyles.pageContent}>
+          <span align="left">
+            My Twitter handle is <em>thekazewaze</em>. Don&apos;t be shy!
+          </span>
+        </p>
       </div>
     </Layout>
   )

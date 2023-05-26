@@ -11,7 +11,11 @@ export default function About() {
       </Head>
       <div className={utilStyles.pageContainer}>
         <h1 className={utilStyles.introTitle}>About</h1>
-        <p className={utilStyles.postHeading}>I&apos;m a Computer Science Student at a University in Texas with concentrations on AI. I&apos;m specifically interested in NLP {'('}Natural Language Processing{')'}, Understanding, Common-Sense Reasoning, etc.</p>
+        <p className={utilStyles.pageContent}>
+          <span align="left">
+            I&apos;m a Computer Science Student at a University in Texas with concentrations on AI. I&apos;m specifically interested in NLP {'('}Natural Language Processing{')'}, Understanding, Common-Sense Reasoning, etc.
+          </span>    
+        </p>
       </div>
     </Layout>
   )
