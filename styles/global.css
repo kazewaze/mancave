@@ -72,6 +72,14 @@ section {
   margin: 1rem 0 0 0;
 }
 
+article {
+  font-size: 20px;
+}
+
+article p {
+  margin: 15px;
+}
+
 ::selection {
   color: #fff;
   background: #000;
