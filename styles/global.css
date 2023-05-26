@@ -81,8 +81,8 @@ article p {
 }
 
 article blockquote {
-  margin: 15px 7.5px 15px 7.5px;
-  padding: 15px;
+  margin: 15px 0 15px 0;
+  padding: 3.75px 15px 3.75px 15px;
   border-radius: 1.5px;
   line-height: 1.5;
   letter-spacing: .0625em;
