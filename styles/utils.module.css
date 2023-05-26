@@ -110,6 +110,12 @@
   color: #7f8f9f;
 }
 
+.date {
+  display: flex;
+  justify-content: center;
+  color: #7f8f9f;
+}
+
 .nameLogoTxt, .heroNameLogoTxt, .heroNameLogoTxt strong {
   font-family: 'Fira Sans', 'Readex Pro', Helvetica Neue, sans-serif;
   font-weight: 800;
