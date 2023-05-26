@@ -1,4 +1,9 @@
-.postHeading, .headingXl, .heading2Xl, .heading3Xl, .introTitle {
+.postHeading,
+.headingXl,
+.heading2Xl,
+.heading3Xl,
+.introTitle,
+.mainIntroTitle {
   font-weight: 800;
   letter-spacing: -0.05rem;
   line-height: 1.2;
