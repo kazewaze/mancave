@@ -42,7 +42,7 @@
 }
 
 @media screen and (min-width:780px) {
-  .introTitle {
+  .mainIntroTitle, .introTitle {
     font-size: 4.50rem;
     line-height: 1.1;
   }
@@ -62,7 +62,7 @@
 
 /* Vercel Intro Font-Settings */
 @media screen and (min-width:1024px) {
-  .introTitle {
+  .mainIntroTitle, .introTitle {
     font-size: 5.75rem;
     line-height: 1;
   }
