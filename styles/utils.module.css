@@ -5,6 +5,10 @@
   margin: 1rem 0;
 }
 
+.mainIntroTitle {
+  font-size: 3.25rem;
+}
+
 .introTitle {
   text-align: center;
   font-size: 3.25rem;
@@ -16,7 +20,6 @@
 }
 
 .sectionHeading {
-  text-align: center;
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;

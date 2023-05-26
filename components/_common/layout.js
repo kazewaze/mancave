@@ -39,7 +39,7 @@ export default function Layout({ children, home }) {
           {
             home ? (
               <>
-                <h1 className={ utilStyles.introTitle }>
+                <h1 className={ utilStyles.mainIntroTitle }>
                   <span className={ utilStyles.thinText }>Hi, my name is </span><strong>Kaycee Ingram</strong><span className={ utilStyles.thinText }>, a.k.a </span><span className={ utilStyles.heroNameLogoTxt }><strong>kazewaze</strong></span>.
                 </h1>
                 <h3 className={utilStyles.introDescription}>I&apos;m a <em>Computer Science Student</em> focused on all things AI. </h3>
