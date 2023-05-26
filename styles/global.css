@@ -80,7 +80,7 @@ article p {
   margin: 30px;
 }
 
-blockquote {
+article blockquote {
   margin: 15px;
   padding: 15px;
   border-radius: 1.5px;
@@ -93,7 +93,8 @@ blockquote {
   background-color: #000;
 }
 
-ul {
+article ul {
+  margin-top: 30px;
   list-style-type: disc;
 }
 
