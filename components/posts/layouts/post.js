@@ -8,8 +8,7 @@ import utilStyles from '../../../styles/utils.module.css'
 
 export default function Post({ children, frontMatter }) {
   const { title, date } = frontMatter;
-  console.log("Children: ", children[1].props.children.props);
-  codeHighlight(children);
+  children = codeHighlight(children);
   return (
     <Layout>
       <Head>
