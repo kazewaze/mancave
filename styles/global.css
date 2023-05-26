@@ -98,16 +98,6 @@ article ul {
   list-style-type: disc;
 }
 
-article pre {
-  text-align: justify;
-  padding: 15px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  border-radius: 1.5px;
-  color: #fff;
-  background-color: #000;
-}
-
 ::selection {
   color: #fff;
   background: #000;
