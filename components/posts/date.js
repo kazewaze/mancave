@@ -9,6 +9,6 @@ export default function Date({ small=false, dateString }) {
         <time className={styles.lightText} dateTime={dateString}>{'['}{format(date, 'LLLL d, yyyy')}{']'}</time>
       </small>
       :
-      <time className={styles.date} dateTime={dateString}>{format(date, 'LLLL d, yyyy')}</time>
+      <time className={styles.date} dateTime={dateString}>{'['}{format(date, 'LLLL d, yyyy')}{']'}</time>
   )
 }
